@@ -6,4 +6,6 @@ code to run on example image : ` python recognize_faces_image.py --encodings enc
    for video file recognition ;`python recognize_faces_video_file.py --encodings encodings.pickle \
 	--input videos/lunch_scene.mp4 --output output/lunch_scene_output.avi \
 	--display 0 `
+	
+To create our facial embeddings open up a terminal and execute the following command:`python encode_faces.py --dataset dataset --encodings encodings.pickle`
   
