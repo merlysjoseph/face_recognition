@@ -7,5 +7,5 @@ code to run on example image : ` python recognize_faces_image.py --encodings enc
 	--input videos/lunch_scene.mp4 --output output/lunch_scene_output.avi \
 	--display 0 `
 	
-To create our facial embeddings open up a terminal and execute the following command:`python encode_faces.py --dataset dataset --encodings encodings.pickle`
+To create facial embeddings :`python encode_faces.py --dataset dataset --encodings encodings.pickle`
   
